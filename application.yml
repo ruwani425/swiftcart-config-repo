@@ -9,6 +9,8 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_SERVER_URL:http://discovery.platform:8761/eureka/}
     registry-fetch-interval-seconds: 5
+    healthcheck:
+      enabled: false
   instance:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 10
