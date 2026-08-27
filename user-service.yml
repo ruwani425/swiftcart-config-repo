@@ -19,5 +19,5 @@ spring:
 
 gcp:
   storage:
-    bucket-name: ${GCS_BUCKET_NAME:eca-user-avatars-bucket}
-    project-id: ${GCP_PROJECT_ID:eca-enterprise-gcp-project}
+    bucket-name: ${GCS_BUCKET_NAME:swiftcart-avatars-bucket-ruwani}
+    project-id: ${GCP_PROJECT_ID:swiftcart-eca-project}
